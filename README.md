@@ -11,14 +11,17 @@
 
 ## 🛠 설치 및 실행 방법
 
-### 요구 사항
-- macOS
-- [Rust](https://www.rust-lang.org/tools/install) (Cargo 패키지 매니저 포함)
+### Homebrew (추천)
+아래 명령어를 통해 간편하게 설치할 수 있습니다:
+```bash
+brew install 4BMtolobPL/homebrew-tap/keyclean
+```
 
-### 실행하기
-1. 저장소를 클론하거나 코드를 다운로드합니다.
-2. 터미널에서 프로젝트 디렉토리로 이동합니다.
-3. 아래 명령어를 실행합니다.
+### 직접 빌드 및 실행
+1. [Rust](https://www.rust-lang.org/tools/install) (Cargo 패키지 매니저 포함)가 설치되어 있어야 합니다.
+2. 저장소를 클론하거나 코드를 다운로드합니다.
+3. 터미널에서 프로젝트 디렉토리로 이동합니다.
+4. 아래 명령어를 실행합니다.
    ```bash
    cargo run
    ```
